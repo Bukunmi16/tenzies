@@ -62,11 +62,12 @@ main .background{
 
 .roll-die{
     /* margin-top: 20px; */
-    width: 100px;
     height: 40px;
+    width: 100px; 
     border: none;
     color: white;
     font-size: 17px;
+    /* white-space: nowrap; */
     font-weight: 600;
     border-radius: 5px;
     background-color: rgb(18, 18, 177);
@@ -124,13 +125,13 @@ main .background{
     }   
     .roll-die{
         height: 40px;
-        width: 70px;
+        white-space: nowrap;
+        width: auto;
+        padding: 6px 21px;
         margin-top: 0;
         font-size: 13px;
     }
-    .game-board{
-        justify-content: start;
-    }
+    
     .game-won{
         font-size: 25px;
     }
